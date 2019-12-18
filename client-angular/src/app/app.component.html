@@ -1,21 +1,23 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <body>
-  <div class="navbar">
+  <div class="row">
     <h1>
-      {{ title }}
+      🍅{{title}}🥑
     </h1>
-    <div class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" routerLink="/">Home</a>
-        <br>
-        <a class="navbar-item" routerLink="/dry-foods">Dry Foods</a>
-        <br>
-        <a class="navbar-item" routerLink="/cold-foods">Cold Foods</a>
-        <br>
+    <h6>
+    </h6>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-item" icon="" routerLink="/">Home</a>
+          <a class="navbar-item" routerLink="/dry-foods">Dry Foods</a>
+          <a class="navbar-item" routerLink="/cold-foods">Cold Foods</a>
+        </div>
       </div>
-    </div>
+    </nav>
   </div>
+
 </body>
 <app-project-display></app-project-display>
 <router-outlet></router-outlet>
