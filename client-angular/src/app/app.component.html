@@ -1,9 +1,21 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <body>
-  <h1>
-    {{ title }}
-  </h1>
+  <div class="navbar">
+    <h1>
+      {{ title }}
+    </h1>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" routerLink="/">Home</a>
+        <br>
+        <a class="navbar-item" routerLink="/dry-foods">Dry Foods</a>
+        <br>
+        <a class="navbar-item" routerLink="/cold-foods">Cold Foods</a>
+        <br>
+      </div>
+    </div>
+  </div>
 </body>
 <app-project-display></app-project-display>
 <router-outlet></router-outlet>
