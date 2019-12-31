@@ -3,5 +3,5 @@ export class Home {
   state: string;
   address: string;
   zipcode: number;
-  date: string;
+  date: number;
 }
