@@ -1,0 +1,9 @@
+{
+  "home": [{
+    "country": "USA",
+    "state": "California",
+    "address": "1201 West LA",
+    "zipcode": 90713,
+    "date": "01-01-2000"
+  }]
+}

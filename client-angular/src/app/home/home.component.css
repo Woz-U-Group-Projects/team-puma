@@ -9,6 +9,12 @@ img {
   
 }
 }
+ul{
+  text-align: center;
+  background-color: palegreen;
+  border: 2px solid black;
+  box-shadow: 2px 5px 2px rgb(166, 166, 166);
+}
 p{
  background-color: palegreen;
  text-align: center;

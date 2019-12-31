@@ -1,9 +1,13 @@
-<body id="back-ground">
+<body id="back-ground" >
   <div>
     <img src="../assets/images/storefront.PNG" alt="buliding" class="center">
   </div>
 </body>
- <p>
-   Welcome to A&A Fresh Goods the finest distributor of fresh goods thoughout the world!
- </p>
- 
+<p>
+  Welcome to A&A Fresh Goods the finest distributor of fresh goods thoughout the world!
+</p>
+<ul *ngFor="let home of home">
+  <br>{{home.country}}<br>
+  <br>{{home.state}}: {{home.address}} {{home.zipcode}}<br>
+  <br>&copy;{{home.date}}/01-01-2020<br>
+</ul>
