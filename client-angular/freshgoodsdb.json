@@ -4,6 +4,78 @@
     "state": "California",
     "address": "1201 West LA",
     "zipcode": 90713,
-    "date":2020
-  }]
+    "date": 2020
+  }],
+  "dryfoods": [{
+      "id": 0,
+      "name": "Almonds",
+      "price": "$2.50 a pound or $5,000 a ton",
+      "instock": "100 tons",
+      "image": "../assets/images/dryfoods/almonds.PNG"
+    },
+    {
+      "id": 1,
+      "name": "Soybeans",
+      "price": "$1.25 a pound or $2,500 a ton",
+      "instock": "250 tons",
+      "image": "../assets/images/dryfoods/soybeans.PNG"
+    },
+    {
+      "id": 2,
+      "name": "Walnuts",
+      "price": "$3.25 a pound or $6,500 a ton",
+      "instock": "50 tons",
+      "image": "../assets/images/dryfoods/walnuts.PNG"
+    },
+    {
+      "id": 3,
+      "name": "Peanuts",
+      "price": "$.50 a pound or $1,000 a ton",
+      "instock": "400 tons",
+      "image": "../assets/images/dryfoods/peanuts.PNG"
+    },
+    {
+      "id": 4,
+      "name": "Cashews",
+      "price": "$5.25 a pound or $10,500 a ton",
+      "instock": "12 tons",
+      "image": "../assets/images/dryfoods/cashews.PNG"
+    },
+    {
+      "id": 5,
+      "name": "Oats",
+      "price": "$.25 a pound or $500 a ton",
+      "instock": "500 tons",
+      "image": "../assets/images/dryfoods/oats.PNG"
+    },
+    {
+      "id": 6,
+      "name": "Rice",
+      "price": "$.15 a pound or $300 a ton",
+      "instock": "1000 tons",
+      "image": "../assets/images/dryfoods/rice.PNG"
+    },
+    {
+      "id": 7,
+      "name": "Corn",
+      "price": "$.10 a pound or $200 a ton",
+      "instock": "1500 tons",
+      "image": "../assets/images/dryfoods/corn.PNG"
+    },
+    {
+      "id": 8,
+      "name": "Wheat",
+      "price": "$.05 a pound or $100 a ton",
+      "instock": "2300 tons",
+      "image": "../assets/images/dryfoods/rawwheat.PNG"
+    },
+    {
+      "id": 9,
+      "name": "Rye",
+      "price": "$.12 a pound or $240 a ton",
+      "instock": "2000 tons",
+      "image": "../assets/images/dryfoods/rye.PNG"
+    }
+
+  ]
 }
