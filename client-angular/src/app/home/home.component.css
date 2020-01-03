@@ -1,14 +1,4 @@
-@media (max-width: 550px) {
-img {
-  width: 350px;
-  height: 350px;
-  background-size: cover;
-  border-radius: 100px;
-  -webkit-border-radius: 150px;
-  float: left;
-  
-}
-}
+
 ul{
   text-align: center;
   background-color: palegreen;

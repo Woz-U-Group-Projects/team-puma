@@ -1,14 +1,14 @@
-<body>
-    <img src="../assets/images/bread.PNG" alt="bread" class="center">
+<body id="back-ground">
+  <div>
     <img src="../assets/images/wheat.PNG" alt="wheat" class="center">
-    <img src="../assets/images/nuts.PNG" alt="nuts" class="center"> 
-    <div>
-      <p> A&A Freshly dried grains and nuts with wholesale prices</p>
-    </div>
-    <div class="dryfoods">
-      <ul *ngFor="let dryfoods of dryfoods">
-        <img [src]='dryfoods.image' />
-        <p>{{dryfoods.id + 1}}. {{dryfoods.name}}: {{dryfoods.price}}<br>: In stock {{dryfoods.instock}} </p>
-      </ul>
-    </div>
+  </div>
 </body>
+<div>
+  <p> A&A Freshly dried grains and nuts</p>
+</div>
+<div class="dryfoods">
+  <ul *ngFor="let dryfoods of dryfoods">
+    <img [src]='dryfoods.image' />
+    <p>{{dryfoods.id + 1}}. {{dryfoods.name}}: {{dryfoods.price}}<br>: In stock {{dryfoods.instock}} </p>
+  </ul>
+</div>

@@ -1,18 +1,23 @@
-@media (max-width: 550px) {
-  img {
-    width: 350px;
-    height: 350px;
-    background-size: cover;
-    border-radius: 100px;
-    -webkit-border-radius: 150px;
-    float: left;
 
-  }
-}
 p{
     text-align: center;
     background-color: palegreen;
     border: 2px solid black;
     box-shadow: 2px 5px 2px rgb(166, 166, 166);
     font-size: 40px;
+}
+#back-ground {
+
+  background-image: url("src/assets/images/wheatfeild.PNG");
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+
 }
