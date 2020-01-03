@@ -77,5 +77,69 @@
       "image": "../assets/images/dryfoods/rye.PNG"
     }
 
+  ],
+  "coldfoods": [{
+      "id": 0,
+      "name": "Oranges",
+      "price": "$1.50 a pound or $3,000 a ton",
+      "instock": "25 tons",
+      "image": "https://www.juicebuff.com/wp-content/uploads/2019/04/Oranges-For-Juicing-1.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Limes",
+      "price": "$2.70 a pound or $5,400 a ton",
+      "instock": "150 tons",
+      "image": "http://justfunfacts.com/wp-content/uploads/2018/03/limes.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lemons",
+      "price": "$3.50 a pound or $7,000 a ton",
+      "instock": "37 tons",
+      "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frosatrieu%2Ffiles%2F2014%2F08%2FValencia_market_-_lemons-1940x1454.jpg"
+    }, {
+      "id": 3,
+      "name": "Grapefruits",
+      "price": "$4.50 a pound or $9,000 a ton",
+      "instock": "12 tons",
+      "image": "https://3o15h033zmpwracwx2i00rqx-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/grapefruit.jpg"
+    }, {
+      "id": 4,
+      "name": "Strawberrys",
+      "price": "$5.25 a pound or $10,500 a ton",
+      "instock": "12 tons",
+      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2019/08/RTR4FJJS/lead_720_405.jpg?mod=1567003290"
+    }, {
+      "id": 5,
+      "name": "Romaine",
+      "price": "$.05 a pound or $100 a ton",
+      "instock": "350 tons",
+      "image": "https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202018/Health/April/CR-Health-InlineHero-When-Did-Romaine-Take-Over-04-18"
+    }, {
+      "id": 6,
+      "name": "Broccoli",
+      "price": "$.15 a pound or $300 a ton",
+      "instock": "1100 tons",
+      "image": "https://specials-images.forbesimg.com/imageserve/147060621/960x0.jpg?fit=scale"
+    }, {
+      "id": 7,
+      "name": "Cauliflower",
+      "price": "$.10 a pound jpgor $200 a ton",
+      "instock": "45 tons",
+      "image": "https://ak2.picdn.net/shutterstock/videos/22657342/thumb/1.jpg"
+    }, {
+      "id": 8,
+      "name": "Celery",
+      "price": "$.28 a pound or $560 a ton",
+      "instock": "210 tons",
+      "image": "https://files.selar.co/product-images/2019/products/awesomecontinental/celery-bunch-of-selar.co-5c9341376af3c.jpeg"
+    }, {
+      "id": 9,
+      "name": "Carrots",
+      "price": "$2.12 a pound or $4,240 a ton",
+      "instock": "3000 tons",
+      "image": "https://cdn.britannica.com/s:800x1000/70/158370-131-9A23F5C8/Carrots-Apiales-members.jpg"
+    }
   ]
 }
