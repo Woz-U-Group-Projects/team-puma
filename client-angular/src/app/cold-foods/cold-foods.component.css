@@ -21,3 +21,36 @@ p {
   font-size: 50px;
 
 }
+
+h2 {
+  width: 100%;
+  border-width: 5px;
+  text-align: center;
+  border-style: double;
+  border-color: rgb(246, 0, 21);
+  color: black;
+  background-color: lightgreen;
+  font-family: fantasy;
+
+
+
+}
+
+
+
+table {
+  border-width: 100%;
+}
+
+
+tr,
+td,
+th {
+
+  height: 25%;
+  border: 1px solid black;
+  border-width: 100%;
+  text-align: center;
+
+
+}
