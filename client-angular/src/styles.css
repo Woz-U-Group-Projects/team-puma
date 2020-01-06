@@ -1,4 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@media (max-width: 550px) {
+    img {
+        width: 350px;
+        height: 350px;
+        background-size: cover;
+        border-radius: 100px;
+        -webkit-border-radius: 150px;
+        float: left;
+
+    }
+}
 html{
     background-color:#E5FBE5;
     

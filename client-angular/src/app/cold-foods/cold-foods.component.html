@@ -1,115 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-       <title></title>
-       
-    </head>
-    <body>
-     
-      
-  
-      <table>
-        
-          <h2>Try Our Freshest Farmed Grown Produce! Add Your Choice of Cold Foods To Your WishList Today!</h2>
-        
-          
-          <tr>
-              <th><h3>Item</h3></th>
-              <th><h3>Description</h3></th>
-              <th><h3>Price</h3></th>
-              <th colspan="2"><h3>Wish List</h3></th>
-           
-            </tr>
-          
-          
-            <tr>
-                         <td><img width="700" height="300" alt="Photos/OrangesForCoodFoods.jpg" src="https://njmonthly.com/wp-content/uploads/cache/2019/11/New-Jersey-Monthly-Produce-Pete-Navel-Oranges-1/207330416.jpg"
-                         >
-                         </td>
-                  
-                   
-                      <td><h3><div class="column">Fresh Oranges</div></h3></td>
-                      <td><h3><div class="column"> $4.99</div></h3></td>
-                      <td><button type="button"><div class="column">Add Item</div></button></td>
-                      <td><button type="button"><div class="column">Delete Item</div></button></td>
-                    
-                    </tr>
-                        
-                      
-            
-                         <br><br>
-        
-            
-           
-                       
-                       
-                            
-                                
-                                    <tr>
-                                    
-                                       <td> <img width="700" height="300" alt="Photos/AlmondMilkForCoodFoods.jpg" src="https://cdnimg.webstaurantstore.com/images/products/large/429855/1860948.jpg"
-                                         >
-                                       </td>
-                                      <td><h3><div class="column">Cold Almond Milk</div></h3></td>
-                                      <td><h3><div class="column">$1.99</div></h3></td>
-                                      <td><button type="button"><div class="column">Add Item</div></button></td>
-                                      <td><button type="button"><div class="column">Delete Item</div></button></td>
-                                     
-                                    </tr>
-                           
-                  
-                    
-<br><br>
-                   
-                       
-                             
-                         <tr>
-                                
-                                      <td>
-                                         <img width="700" height="300" alt="Photos/PeachesForCoodFoods.jpg" src="https://www.georgiagrown.com/sites/default/files/images/field/articles/peaches.jpg"
-                                         >
-                                      </td>
-                                      <td><h3>Fresh Peaches</h3></td>
-                                      <td><h3>$3.99</h3></td>
-                                      <td><button type="button">Add Item</button></td>
-                                      <td><button type="button">Delete Item</button></td>
-                                      
-                                    
-                                    
-                                    </tr>
-                           
-                  
-                        
-                             
-                            <br><br>
-                                <tr>
-                                
-                                      <td>
-                                         <img width="700" height="300" alt="Photos/CherryTomatoesForCoodFoods.jpg" src="https://www.southernexposure.com/media/products/originals/tomato-sugar-cherry-4840c98a2875fc3f8a0917abba673beb.jpg"
-                                         >
-                                      </td>
-                                      <td><h3>Cherry Tomatoes</h3></td>
-                                      <td><h3>$2.99</h3></td>
-                                      <td><button type="button">Add Item</button></td>
-                                      <td><button type="button">Delete Item</button></td>
-                                    
-                             
-                                    </tr>
-                    
-                                 
-                                    
-                </table>
-             
-    </body>
-
-
-    
- </html>
-
-    
-
-
-
-
-
-  
+<body id="back-ground">
+  <div>
+    <img src="../assets/images/fruits.PNG" alt="fruits" class="center">
+  </div>
+</body>
+<p> A&A freshly pick fruits and vegetables</p>
+<div class="coldfoods">
+  <ul *ngFor="let coldfoods of coldfoods">
+    <img [src]='coldfoods.image' />
+    <p>{{coldfoods.id + 1}}. {{coldfoods.name}}: {{coldfoods.price}}<br>: In stock {{coldfoods.instock}} </p>
+  </ul>
+</div>

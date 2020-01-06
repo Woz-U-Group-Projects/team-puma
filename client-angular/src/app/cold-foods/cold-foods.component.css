@@ -1,35 +1,23 @@
-h2 {
-    width:100%;
-    border-width:5px;
-    text-align:center;
-    border-style:double;
-    border-color:rgb(246, 0, 21);
-    color:black;
-    background-color:lightgreen;
-    font-family: fantasy;
+#back-ground {
 
-    
-    
+  background-image: url("src/assets/images/strawberry.PNG");
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+
 }
-    
+p {
+  background-color: palegreen;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 2px 5px 2px rgb(166, 166, 166);
+  font-size: 50px;
 
-body{
-    color:olivedrab;
-    display:flex;
-    height:100;
 }
-table{
-    border-width: 100%;
-}
-
-
-tr,td, th {
-    
-    height:25%;
-    border: 1px solid black;
-    border-width: 100%;
-    text-align:center;
-    
-    
-}
-
