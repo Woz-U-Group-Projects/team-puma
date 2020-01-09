@@ -15,7 +15,7 @@
 
 <body>
 
-  <h2>Try Our Freshest Farmed Grown Produce! Add Your Choice of Cold Foods To Your WishList Today! </h2>
+  <h2>Our Freshest Farmed Grown Produce! Add Your Choice of Cold Foods To Your WishList Today! </h2>
   <div class="coldfoods">
 
     <ul *ngFor="let coldfoods of coldfoods">
@@ -54,27 +54,23 @@
           </td>
           <td>
             <h3>
-              <div class="column"> {{coldfoods.price}}</div>
+              <div class="column"> {{coldfoods.price|currency}} PER-TON</div>
             </h3>
            </td>
-           <td><button type="button">
-               <div class="column">Add Item by pound</div>
-             </button>
-             <br>
-             <button type="button">
-               <div class="column">Add Item by ton</div>
+           <td><button type="button" (click)="addToCart(coldfoods)">
+               <div class="column">Add Item</div>
              </button>
            </td>
            <td><button type="button">
                <div class="column">Delete Item</div>
              </button>
             <br>
-            <button type="button">
-              <div class="column">View Item</div>
+            <button type="button" routerLink="/cart">
+              <div class="column">View Items</div>
             </button>
             </td>
           <td>
-            <div class="column">{{coldfoods.instock}}</div>
+            <div class="column">{{coldfoods.instock}} TONS</div>
           </td>
 
         </tr>

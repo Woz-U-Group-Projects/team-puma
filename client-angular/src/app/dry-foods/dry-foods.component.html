@@ -18,7 +18,6 @@
 
 <h2> Our Different Kinds of Dry Foods Are the Best Your Money Can Buy! Add to Your WishList Today!</h2>
   <div class="dryfoods">
-    
     <ul *ngFor="let dryfoods of dryfoods">
       <table>
         <tr>
@@ -55,27 +54,21 @@
           </td>
           <td>
             <h3>
-              <div class="column"> {{dryfoods.price}}</div>
+              <div class="column"> {{dryfoods.price | currency}} PER-TON</div>
             </h3>
           </td>
-          <td><button type="button">
-              <div class="column">Add Item by pound</div>
+          <td><button type="button" (click)="addToCart(dryfoods)">
+              <div class="column">Add Item</div>
             </button>
-         <br>
-            <button type="button">
-            <div class="column">Add Item by ton</div>
-          </button>
           </td>
-          <td><button type="button">
-              <div class="column">Delete Item</div>
-            </button>
+          <td><button type="button">Delete Item</button>
            <br>
-           <button type="button">
-             <div class="column">View Item</div>
+           <button type="button" routerLink="/cart">
+             <div class="column">View Items</div>
            </button>
           </td>
             <td>
-              <div class="column">{{dryfoods.instock}}</div>
+              <div class="column">{{dryfoods.instock}} TONS</div>
             </td>
 
         </tr>
