@@ -6,9 +6,94 @@
 <div>
   <p> A&A Freshly dried grains and nuts</p>
 </div>
+<<<<<<< HEAD
 <div class="dryfoods">
   <ul *ngFor="let dryfoods of dryfoods">
     <img [src]='dryfoods.image' />
     <p>{{dryfoods.id + 1}}. {{dryfoods.name}}: {{dryfoods.price}}<br>: In stock {{dryfoods.instock}} </p>
   </ul>
 </div>
+=======
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+</head>
+
+<body>
+
+<h2> Our Different Kinds of Dry Foods Are the Best Your Money Can Buy! Add to Your WishList Today!</h2>
+  <div class="dryfoods">
+    
+    <ul *ngFor="let dryfoods of dryfoods">
+      <table>
+        <tr>
+          <th>
+            <h3>Item</h3>
+          </th>
+          <th>
+            <h3>Description</h3>
+          </th>
+          <th>
+            <h3>Price</h3>
+          </th>
+          <th colspan="2">
+            <h3>Wish List</h3>
+          </th>
+          <th colspan="3">
+            <h3>Instock</h3>
+          </th>
+
+        </tr>
+
+
+        <tr>
+          <td>
+            <img width="700" height="300" [src]='dryfoods.image' />
+
+          </td>
+
+
+          <td>
+            <h3>
+              <div class="column">{{dryfoods.id + 1}}. {{dryfoods.name}}</div>
+            </h3>
+          </td>
+          <td>
+            <h3>
+              <div class="column"> {{dryfoods.price}}</div>
+            </h3>
+          </td>
+          <td><button type="button">
+              <div class="column">Add Item by pound</div>
+            </button>
+         <br>
+            <button type="button">
+            <div class="column">Add Item by ton</div>
+          </button>
+          </td>
+          <td><button type="button">
+              <div class="column">Delete Item</div>
+            </button>
+           <br>
+           <button type="button">
+             <div class="column">View Item</div>
+           </button>
+          </td>
+            <td>
+              <div class="column">{{dryfoods.instock}}</div>
+            </td>
+
+        </tr>
+      </table>
+    </ul>
+  </div>
+
+</body>
+
+
+
+</html>
+>>>>>>> e8683ff1a50efa43dc4787a1e3471f1ade97201c

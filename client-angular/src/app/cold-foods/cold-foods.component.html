@@ -4,9 +4,95 @@
   </div>
 </body>
 <p> A&A freshly pick fruits and vegetables</p>
+<<<<<<< HEAD
 <div class="coldfoods">
   <ul *ngFor="let coldfoods of coldfoods">
     <img [src]='coldfoods.image' />
     <p>{{coldfoods.id + 1}}. {{coldfoods.name}}: {{coldfoods.price}}<br>: In stock {{coldfoods.instock}} </p>
   </ul>
 </div>
+=======
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+
+</head>
+
+<body>
+
+  <h2>Try Our Freshest Farmed Grown Produce! Add Your Choice of Cold Foods To Your WishList Today! </h2>
+  <div class="coldfoods">
+
+    <ul *ngFor="let coldfoods of coldfoods">
+      <table>
+        <tr>
+          <th>
+            <h3>Item</h3>
+          </th>
+          <th>
+            <h3>Description</h3>
+          </th>
+          <th>
+            <h3>Price</h3>
+          </th>
+          <th colspan="2">
+            <h3>Wish List</h3>
+          </th>
+          <th colspan="3">
+            <h3>Instock</h3>
+          </th>
+
+        </tr>
+
+
+        <tr>
+          <td>
+            <img width="700" height="300" [src]='coldfoods.image' />
+
+          </td>
+
+
+          <td>
+            <h3>
+              <div class="column">{{coldfoods.id + 1}}. {{coldfoods.name}}</div>
+            </h3>
+          </td>
+          <td>
+            <h3>
+              <div class="column"> {{coldfoods.price}}</div>
+            </h3>
+           </td>
+           <td><button type="button">
+               <div class="column">Add Item by pound</div>
+             </button>
+             <br>
+             <button type="button">
+               <div class="column">Add Item by ton</div>
+             </button>
+           </td>
+           <td><button type="button">
+               <div class="column">Delete Item</div>
+             </button>
+            <br>
+            <button type="button">
+              <div class="column">View Item</div>
+            </button>
+            </td>
+          <td>
+            <div class="column">{{coldfoods.instock}}</div>
+          </td>
+
+        </tr>
+      </table>
+    </ul>
+  </div>
+
+</body>
+
+
+
+</html>
+>>>>>>> e8683ff1a50efa43dc4787a1e3471f1ade97201c
