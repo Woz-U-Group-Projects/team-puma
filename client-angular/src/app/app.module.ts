@@ -8,9 +8,10 @@ import { ProjectDisplayComponent } from './project-display/project-display.compo
 import { HomeComponent } from './home/home.component';
 import { DryFoodsComponent } from './dry-foods/dry-foods.component';
 import { ColdFoodsComponent } from './cold-foods/cold-foods.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
-  declarations: [AppComponent, ProjectDisplayComponent, HomeComponent, DryFoodsComponent, ColdFoodsComponent],
+  declarations: [AppComponent, ProjectDisplayComponent, HomeComponent, DryFoodsComponent, ColdFoodsComponent, CartComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]

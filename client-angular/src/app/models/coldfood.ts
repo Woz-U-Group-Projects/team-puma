@@ -1,7 +1,7 @@
 export class Coldfood {
   id: number;
   name: string;
-  price: string;
+  price: number;
   instock: number;
   image: string;
 }
