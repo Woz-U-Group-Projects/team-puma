@@ -39,7 +39,8 @@ h2 {
 
 
 table {
-  border-width: 100%;
+    table-layout: auto;
+    width: 100%;
 }
 
 
