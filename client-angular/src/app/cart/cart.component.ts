@@ -10,10 +10,15 @@ import { Coldfood } from '../models/coldfood';
 })
 export class CartComponent implements OnInit {
   items: Dryfood[]; or: Coldfood[];
+  total: number;
   constructor(private cartService: CartService) { }
 
   ngOnInit() {
+    this.total = 0;
     this.items = this.cartService.getItems();
+    this.items.forEach(element => {
+      this.total += element.price;
+    });
   }
 
 }
