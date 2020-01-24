@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+img[width]{
+
+  background-color:rgb(231, 12, 23);
+  padding:20px;
+}
 #back-ground {
 
   background-image: url("src/assets/images/strawberry.PNG");
@@ -14,14 +18,18 @@
 
 
 }
+th{
+  background-color:rgb(224, 226, 79);
+}
 p {
   background-color: palegreen;
   text-align: center;
   border: 2px solid black;
   box-shadow: 2px 5px 2px rgb(166, 166, 166);
-  font-size: 50px;
+  font-size: 40px;
 
 }
+
 
 h2 {
   width: 100%;
@@ -32,6 +40,7 @@ h2 {
   color: black;
   background-color: lightgreen;
   font-family: fantasy;
+  font-size:35px;
 
 
 
@@ -39,8 +48,13 @@ h2 {
 
 
 
-table {
-  border-width: 100%;
+tr {
+  table-layout:auto;
+  width:auto;
+  height:auto;
+}
+.column{
+  font-size:35px;
 }
 
 
@@ -50,64 +64,8 @@ th {
 
   height: 25%;
   border: 1px solid black;
-  border-width: 100%;
-  text-align: center;
-
-
-}
-=======
-#back-ground {
-
-  background-image: url("src/assets/images/strawberry.PNG");
-  min-height: 600px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: relative;
-
-
-}
-p {
-  background-color: palegreen;
-  text-align: center;
-  border: 2px solid black;
-  box-shadow: 2px 5px 2px rgb(166, 166, 166);
-  font-size: 50px;
-
-}
-
-h2 {
   width: 100%;
-  border-width: 5px;
-  text-align: center;
-  border-style: double;
-  border-color: rgb(246, 0, 21);
-  color: black;
-  background-color: lightgreen;
-  font-family: fantasy;
-
-
-
-}
-
-
-
-table {
-  border-width: 100%;
-}
-
-
-tr,
-td,
-th {
-
-  height: 25%;
-  border: 1px solid black;
-  border-width: 100%;
+  height:100%;
   text-align: center;
 
 
@@ -125,8 +83,9 @@ button {
   box-shadow: 0 5px 2px rgb(166, 166, 166);
   background-color: lightgreen;
   color: black;
-  font-size: 1em;
+  font-size: 2em;
   transition: background-color 0.3s;
+  border-radius:25%;
 }
 
 button:hover,
@@ -165,4 +124,6 @@ button:active:before {
   padding-top: 120%;
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 }
->>>>>>> dbc36870c8e24047d526395b6eeeec3109d10248
+h3{
+  font-size:35px;
+}
