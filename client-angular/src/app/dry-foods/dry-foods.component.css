@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
 
 img[width]{
@@ -136,3 +137,21 @@ h3 {
 
 }
 
+=======
+
+#back-ground {
+
+  background-image: url("src/assets/images/wheatfeild.PNG");
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+
+}
+>>>>>>> 7d70dfcbf7efaa8ee8e37ce9b234f7a98df81615

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "home": [{
     "country": "USA",
@@ -142,3 +143,150 @@
     }
   ]
 }
+=======
+{
+  "home": [{
+    "country": "USA",
+    "state": "California",
+    "address": "1201 West LA",
+    "zipcode": 90713,
+    "date": 2020
+  }],
+  "dryfoods": [{
+      "id": 0,
+      "name": "Almonds",
+      "price": 5000,
+      "instock": 100,
+      "image": "../assets/images/dryfoods/almonds.PNG"
+    },
+    {
+      "id": 1,
+      "name": "Soybeans",
+      "price": 2500,
+      "instock": 250,
+      "image": "../assets/images/dryfoods/soybeans.PNG"
+    },
+    {
+      "id": 2,
+      "name": "Walnuts",
+      "price": 6500,
+      "instock": 50,
+      "image": "../assets/images/dryfoods/walnuts.PNG"
+    },
+    {
+      "id": 3,
+      "name": "Peanuts",
+      "price": 1000,
+      "instock": 400,
+      "image": "../assets/images/dryfoods/peanuts.PNG"
+    },
+    {
+      "id": 4,
+      "name": "Cashews",
+      "price":10500,
+      "instock": 12,
+      "image": "../assets/images/dryfoods/cashews.PNG"
+    },
+    {
+      "id": 5,
+      "name": "Oats",
+      "price": 500,
+      "instock": 340,
+      "image": "../assets/images/dryfoods/oats.PNG"
+    },
+    {
+      "id": 6,
+      "name": "Rice",
+      "price": 300,
+      "instock": 1000,
+      "image": "../assets/images/dryfoods/rice.PNG"
+    },
+    {
+      "id": 7,
+      "name": "Corn",
+      "price": 200,
+      "instock": 1500,
+      "image": "../assets/images/dryfoods/corn.PNG"
+    },
+    {
+      "id": 8,
+      "name": "Wheat",
+      "price": 100,
+      "instock": 2300,
+      "image": "../assets/images/dryfoods/rawwheat.PNG"
+    },
+    {
+      "id": 9,
+      "name": "Rye",
+      "price": 240,
+      "instock": 2000,
+      "image": "../assets/images/dryfoods/rye.PNG"
+    }
+
+  ],
+  "coldfoods": [{
+      "id": 0,
+      "name": "Oranges",
+      "price": 3000,
+      "instock": 25,
+      "image": "https://www.juicebuff.com/wp-content/uploads/2019/04/Oranges-For-Juicing-1.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Limes",
+      "price": 5400,
+      "instock": 150,
+      "image": "http://justfunfacts.com/wp-content/uploads/2018/03/limes.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lemons",
+      "price": 7000,
+      "instock": 37,
+      "image": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frosatrieu%2Ffiles%2F2014%2F08%2FValencia_market_-_lemons-1940x1454.jpg"
+    }, {
+      "id": 3,
+      "name": "Grapefruits",
+      "price": 9000,
+      "instock": 12,
+      "image": "https://3o15h033zmpwracwx2i00rqx-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/grapefruit.jpg"
+    }, {
+      "id": 4,
+      "name": "Strawberrys",
+      "price": 10000,
+      "instock": 12,
+      "image": "https://cdn.theatlantic.com/assets/media/img/mt/2019/08/RTR4FJJS/lead_720_405.jpg?mod=1567003290"
+    }, {
+      "id": 5,
+      "name": "Romaine",
+      "price": 100,
+      "instock": 350,
+      "image": "https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202018/Health/April/CR-Health-InlineHero-When-Did-Romaine-Take-Over-04-18"
+    }, {
+      "id": 6,
+      "name": "Broccoli",
+      "price": 300,
+      "instock": 1100,
+      "image": "https://specials-images.forbesimg.com/imageserve/147060621/960x0.jpg?fit=scale"
+    }, {
+      "id": 7,
+      "name": "Cauliflower",
+      "price": 200,
+      "instock": 45,
+      "image": "https://ak2.picdn.net/shutterstock/videos/22657342/thumb/1.jpg"
+    }, {
+      "id": 8,
+      "name": "Celery",
+      "price": 560,
+      "instock": 210,
+      "image": "https://files.selar.co/product-images/2019/products/awesomecontinental/celery-bunch-of-selar.co-5c9341376af3c.jpeg"
+    }, {
+      "id": 9,
+      "name": "Carrots",
+      "price": 4240,
+      "instock": 3000,
+      "image": "https://cdn.britannica.com/s:800x1000/70/158370-131-9A23F5C8/Carrots-Apiales-members.jpg"
+    }
+  ]
+}
+>>>>>>> 7d70dfcbf7efaa8ee8e37ce9b234f7a98df81615

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img[width]{
 
   background-color:rgb(231, 12, 23);
@@ -127,3 +128,20 @@ button:active:before {
 h3{
   font-size:35px;
 }
+=======
+#back-ground {
+
+  background-image: url("src/assets/images/strawberry.PNG");
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+
+}
+>>>>>>> 7d70dfcbf7efaa8ee8e37ce9b234f7a98df81615
