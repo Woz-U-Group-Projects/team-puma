@@ -1,6 +1,6 @@
  
 
-img[width]{
+img[width="1000"]{
 
   background-color:rgb(19, 73, 9);
   padding:20px;
@@ -151,4 +151,7 @@ h3 {
   position: relative;
 
 
+}
+img[src]{
+  border-radius:100%;
 }

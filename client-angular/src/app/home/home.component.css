@@ -29,5 +29,7 @@ p{
 
 }
 
-
+img[src]{
+  border-radius:100%;
+}
 
