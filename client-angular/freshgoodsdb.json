@@ -11,70 +11,80 @@
       "name": "Almonds",
       "price": 5000,
       "instock": 100,
-      "image": "../assets/images/dryfoods/almonds.PNG"
+      "image": "../assets/images/dryfoods/almonds.PNG",
+      "info": "test"
     },
     {
       "id": 1,
       "name": "Soybeans",
       "price": 2500,
       "instock": 250,
-      "image": "../assets/images/dryfoods/soybeans.PNG"
+      "image": "../assets/images/dryfoods/soybeans.PNG",
+      "info": "test"
     },
     {
       "id": 2,
       "name": "Walnuts",
       "price": 6500,
       "instock": 50,
-      "image": "../assets/images/dryfoods/walnuts.PNG"
+      "image": "../assets/images/dryfoods/walnuts.PNG",
+      "info": "test"
     },
     {
       "id": 3,
       "name": "Peanuts",
       "price": 1000,
       "instock": 400,
-      "image": "../assets/images/dryfoods/peanuts.PNG"
+      "image": "../assets/images/dryfoods/peanuts.PNG",
+      "info": "test"
     },
     {
       "id": 4,
       "name": "Cashews",
       "price":10500,
       "instock": 12,
-      "image": "../assets/images/dryfoods/cashews.PNG"
+      "image": "../assets/images/dryfoods/cashews.PNG",
+      "info": "test"
     },
     {
       "id": 5,
       "name": "Oats",
       "price": 500,
       "instock": 340,
-      "image": "../assets/images/dryfoods/oats.PNG"
+      "image": "../assets/images/dryfoods/oats.PNG",
+      "info": "test"
     },
     {
       "id": 6,
       "name": "Rice",
       "price": 300,
       "instock": 1000,
-      "image": "../assets/images/dryfoods/rice.PNG"
+      "image": "../assets/images/dryfoods/rice.PNG",
+      "info": "test"
     },
     {
       "id": 7,
       "name": "Corn",
       "price": 200,
       "instock": 1500,
-      "image": "../assets/images/dryfoods/corn.PNG"
+      "image": "../assets/images/dryfoods/corn.PNG",
+      "info": "test"
     },
     {
       "id": 8,
       "name": "Wheat",
       "price": 100,
       "instock": 2300,
-      "image": "../assets/images/dryfoods/rawwheat.PNG"
+      "image": "../assets/images/dryfoods/rawwheat.PNG",
+      "info": "test"
     },
     {
       "id": 9,
       "name": "Rye",
       "price": 240,
       "instock": 2000,
-      "image": "../assets/images/dryfoods/rye.PNG"
+      "image": "../assets/images/dryfoods/rye.PNG",
+       "info": "test"
     }
 
   ],

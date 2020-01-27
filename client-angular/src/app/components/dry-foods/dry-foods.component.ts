@@ -1,8 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Dryfood } from '../models/dryfood';
+import { Dryfood } from '../../models/dryfood';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
-import { CartService } from '../cart.service';
+import { CartService } from '../../services/cart.service';
 
 @Component({
   selector: 'app-dry-foods',
@@ -26,5 +26,4 @@ export class DryFoodsComponent implements OnInit {
   ngOnInit() {
     this.getDryfood();
   }
-
 }

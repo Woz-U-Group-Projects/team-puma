@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Home } from '../models/home';
+import { Home } from '../../models/home';
 import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-home',

@@ -10,19 +10,20 @@
   </tr>
   <tr *ngFor="let item of items">
     <td>
-       {{items.id}}
-      <button (click)="onClickDelete()">Remove item</button>
+      <button (click)="clearCart()">Remove item</button>
     </td>
     <td>{{item.name}}</td>
     <td> <img width="200" height="100" [src]='item.image'></td>
     <td>{{ item.price | currency}}</td>
-    <td>{{item.quantity}}</td>
-    <td>{{item.price * item.quantity}}</td>
+    <td>{{quantity}}</td>
+    <td>{{item.price * quantity | currency}}</td>
   </tr>
   <tr>
     <td colspan="5">
-      <h2>Total order price</h2>
+      <h2>Iiems in Cart: {{totalquantity}}</h2>
     </td>
-    <td>{{total | currency}}</td>
+    <td>
+          <h2>Total order price: {{total * quantity | currency}}</h2>
+    </td>
   </tr>
 </table>
