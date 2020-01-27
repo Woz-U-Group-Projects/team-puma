@@ -4,4 +4,5 @@ export class Dryfood {
   price: number;
   instock: number;
   image: string;
+  info: string;
 }

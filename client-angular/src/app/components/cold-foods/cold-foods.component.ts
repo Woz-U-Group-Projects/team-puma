@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Coldfood } from '../models/coldfood';
+import { Coldfood } from '../../models/coldfood';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
-import { CartService } from '../cart.service';
+import { CartService } from '../../services/cart.service';
 
 @Component({
   selector: 'app-cold-foods',
