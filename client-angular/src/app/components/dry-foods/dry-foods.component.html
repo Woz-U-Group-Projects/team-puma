@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  
+</head>
+
+
 <body id="back-ground">
   <div>
     <img src="../assets/images/wheat.PNG" alt="wheat" class="center">
@@ -6,23 +15,6 @@
 <div>
   <p> A&A Freshly dried grains and nuts</p>
 </div>
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title></title>
-  <style>
-    p {
-    display: none;
-    background-color: limegreen;
-    padding: 20px;
-  }
-  
-   tr td img[width]  :hover  p {
-    display: block;
-    }
-  </style>
-</head>
 
 <body>
 
@@ -54,14 +46,15 @@
           <td>
             
             <img width="1000" height="300" [src]='dryfoods.image' />
-            <p>Fleshly Grown Almonds</p>
-
-          </td>
+            
+</td>
 
 
           <td>
             <h3>
-              <div class="column">{{dryfoods.name}}</div>
+              <div class="tooltip">{{dryfoods.name}}
+                <p class="tooltiptext">{{dryfoods.info}}</p>
+              </div>
             </h3>
           </td>
           <td>

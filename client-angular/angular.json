@@ -44,7 +44,7 @@
             "aot": false,
             "assets": [
               "src/assets",
-              "src/favicon2.ico"
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
