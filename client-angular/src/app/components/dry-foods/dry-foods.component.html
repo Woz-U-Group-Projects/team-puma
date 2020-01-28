@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title></title>
-  
 </head>
-
-
 <body id="back-ground">
   <div>
     <img src="../assets/images/wheat.PNG" alt="wheat" class="center">
@@ -15,9 +11,7 @@
 <div>
   <p> A&A Freshly dried grains and nuts</p>
 </div>
-
 <body>
-
 <h2> Our Different Kinds of Dry Foods Are the Best Your Money Can Buy! Add to Your Checkout Cart Today!</h2>
   <div class="dryfoods">
     <ul *ngFor="let dryfoods of dryfoods">
@@ -40,19 +34,13 @@
           </th>
 
         </tr>
-
-
-        <tr>
-          <td>
-            
-            <img width="1000" height="300" [src]='dryfoods.image' />
-            
-</td>
-
-
+         <tr>
+             <td>
+            <img width="700" height="300" [src]='dryfoods.image' />
+            </td>
           <td>
             <h3>
-              <div class="tooltip">{{dryfoods.name}}
+              <div class="tooltip"> Info hover here!: {{dryfoods.name}}
                 <p class="tooltiptext">{{dryfoods.info}}</p>
               </div>
             </h3>
@@ -66,8 +54,7 @@
               <div class="column">Add Item</div>
             </button>
           </td>
-          <td><button type="button">Delete Item</button>
-           <br>
+          <td>
            <button type="button" routerLink="/cart">
              <div class="column">View Items</div>
            </button>
@@ -75,14 +62,9 @@
             <td>
               <div class="column">{{dryfoods.instock}} TONS</div>
             </td>
-
         </tr>
       </table>
     </ul>
   </div>
-
 </body>
-
-
-
 </html>

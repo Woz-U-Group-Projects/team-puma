@@ -4,20 +4,14 @@
   </div>
 </body>
 <p> A&A freshly pick fruits and vegetables</p>
-
 <!DOCTYPE html>
 <html>
-
 <head>
   <title></title>
-
 </head>
-
 <body>
-
   <h2>Our Freshest Farmed Grown Produce! Add Your Choice of Cold Foods To Your Checkout Cart Today! </h2>
   <div class="coldfoods">
-
     <ul *ngFor="let coldfoods of coldfoods">
       <table>
         <tr>
@@ -36,19 +30,14 @@
           <th colspan="3">
             <h3>Instock</h3>
           </th>
-
         </tr>
-
-
         <tr>
           <td>
-            <img width="1000" height="300" [src]='coldfoods.image' />
-            
-
+            <img width="700" height="300" [src]='coldfoods.image' />
           </td>
           <td>
             <h3>
-              <div class="tooltip">{{coldfoods.name}} 
+              <div class="tooltip">Info hover here!: {{coldfoods.name}}
               <p class="tooltiptext">{{coldfoods.info}}</p>
             </div>
             </h3>
@@ -62,10 +51,7 @@
                <div class="column">Add Item</div>
              </button>
            </td>
-           <td><button type="button">
-               <div class="column">Delete Item</div>
-             </button>
-            <br>
+           <td>
             <button type="button" routerLink="/cart">
               <div class="column">View Items</div>
             </button>
@@ -73,12 +59,9 @@
           <td>
             <div class="column">{{coldfoods.instock}} TONS</div>
           </td>
-
         </tr>
       </table>
     </ul>
   </div>
-
 </body>
-
 </html>
