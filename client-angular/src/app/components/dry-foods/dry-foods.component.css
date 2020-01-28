@@ -154,4 +154,8 @@ h3 {
 }
 img[src]{
   border-radius:100%;
+  padding:10px;
+  background-color:brown;
+  
+
 }

@@ -17,6 +17,11 @@ p{
 
   background-image: url("src/assets/images/farmlands.PNG");
   min-height: 600px;
+  
+ 
+  
+
+  
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -31,5 +36,7 @@ p{
 
 img[src]{
   border-radius:100%;
+  background-color:lightskyblue;
+  padding:10px;
 }
 
