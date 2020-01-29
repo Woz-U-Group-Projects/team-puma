@@ -1,3 +1,4 @@
+
 <body id="back-ground">
   <div>
     <img src="../assets/images/fruits.PNG" alt="fruits" class="center">
@@ -7,7 +8,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+<title></title>
 </head>
 <body>
   <h2>Our Freshest Farmed Grown Produce! Add Your Choice of Cold Foods To Your Checkout Cart Today! </h2>
@@ -38,24 +39,24 @@
           <td>
             <h3>
               <div class="tooltip">Info hover here!: {{coldfoods.name}}
-              <p class="tooltiptext">{{coldfoods.info}}</p>
-            </div>
+                <p class="tooltiptext">{{coldfoods.info}}</p>
+              </div>
             </h3>
           </td>
           <td>
             <h3>
               <div class="column"> {{coldfoods.price|currency}} PER-TON</div>
             </h3>
-           </td>
-           <td><button type="button" (click)="addToCart(coldfoods)">
-               <div class="column">Add Item</div>
-             </button>
-           </td>
-           <td>
+          </td>
+          <td><button type="button" (click)="addToCart(coldfoods)">
+              <div class="column">Add Item</div>
+            </button>
+          </td>
+          <td>
             <button type="button" routerLink="/cart">
               <div class="column">View Items</div>
             </button>
-            </td>
+          </td>
           <td>
             <div class="column">{{coldfoods.instock}} TONS</div>
           </td>
@@ -64,4 +65,5 @@
     </ul>
   </div>
 </body>
+
 </html>

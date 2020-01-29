@@ -1,8 +1,9 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Dryfood } from '../../models/dryfood';
+import { Component, OnInit, } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
-import { CartService } from '../../services/cart.service';
+import { Dryfood } from 'src/app/models/dryfood';
+import { CartService } from 'src/app/services/cart.service';
+
 
 @Component({
   selector: 'app-dry-foods',
@@ -14,7 +15,7 @@ export class DryFoodsComponent implements OnInit {
   private dryfoodsRoute = 'http://localhost:3000/dryfoods';
   constructor(private http: HttpClient,  private route: ActivatedRoute, private cartService: CartService) { }
   addToCart(dryfoods) {
-    window.alert('Your Dry Food product has been added to the cart!');
+    window.alert('Your Dry Food product has been added to the cart!')
     this.cartService.addToCart(dryfoods);
   }
   getDryfood() {
