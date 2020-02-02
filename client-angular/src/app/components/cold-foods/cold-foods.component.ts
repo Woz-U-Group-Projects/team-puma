@@ -23,9 +23,8 @@ export class ColdFoodsComponent implements OnInit {
       this.coldfoods = coldfoods;
       console.log('Coldfood', this.coldfoods);
     });
-}
+  }
   ngOnInit() {
     this.getColdfood();
   }
-
 }
