@@ -1,182 +1,3 @@
-<<<<<<< HEAD
-img[width]{
-
-  background-color:rgb(231, 12, 23);
-  padding:20px;
-
-}
-#back-ground {
-
-  background-image: url("src/assets/images/strawberry.PNG");
-  min-height: 600px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: relative;
-
-
-}
-th{
-  background-color:rgb(224, 226, 79);
-}
-p {
-  background-color: palegreen;
-  text-align: center;
-  border: 2px solid black;
-  box-shadow: 2px 5px 2px rgb(166, 166, 166);
-  font-size: 40px;
-
-}
-
-
-h2 {
-  width: 100%;
-  border-width: 5px;
-  text-align: center;
-  border-style: double;
-  border-color: rgb(246, 0, 21);
-  color: black;
-  background-color: lightgreen;
-  font-family: fantasy;
-  font-size:35px;
-
-
-
-}
-
-
-
-tr {
-  table-layout:auto;
-  width:auto;
-  height:auto;
-}
-.column{
-  font-size:35px;
-}
-
-
-tr,
-td,
-th {
-
-  height: 25%;
-  border: 1px solid black;
-  width: 100%;
-  height:100%;
-  text-align: center;
-
-
-}
-button {
-  position: relative;
-  display: inline-block;
-  margin: 4px;
-  padding: 0.5%;
-  overflow: hidden;
-  border-width: 0;
-  outline: none;
-  border-radius: 2px;
-  border: 2px solid black;
-  box-shadow: 0 5px 2px rgb(166, 166, 166);
-  background-color: lightgreen;
-  color: black;
-  font-size: 2em;
-  transition: background-color 0.3s;
-  border-radius:25%;
-}
-
-button:hover,
-button:focus {
-  background-color: burlywood;
-}
-
-button>* {
-  position: relative;
-}
-
-button span {
-  display: block;
-  padding: 12px 24px;
-}
-
-button:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: 0;
-  padding-top: 0;
-  border-radius: 100%;
-  background-color: rgba(236, 240, 241, 0.3);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-button:active:before {
-  width: 120%;
-  padding-top: 120%;
-  transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-}
-h3{
-  font-size:35px;
-}
-#back-ground {
-
-  background-image: url("src/assets/images/strawberry.PNG");
-  min-height: 600px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: relative;
-
-
-}
-img[src]{
-  border-radius:100%;
-  padding: 10px;
-  background-color: orangered;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 100%;
-  background-color: orangered;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  
-
-.tooltip {
-  position: relative;
-  display: block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-=======
 img[width] {
 
   background-color: rgb(231, 12, 23);
@@ -228,10 +49,15 @@ h2 {
 
 }
 
-tr {
+table {
   table-layout: auto;
   width: auto;
   height: auto;
+}
+
+.column{
+  font-size:35px;
+  font:bold;
 }
 
 tr,
@@ -355,5 +181,4 @@ img[src] {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
->>>>>>> master
 }
