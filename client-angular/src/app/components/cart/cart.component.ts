@@ -20,17 +20,19 @@ export class CartComponent implements OnInit {
     this.items = [];
     this.total = 0;
     this.totalquantity = 0;
+    // tslint:disable-next-line:no-shadowed-variable
     this.items.forEach(element => {
       this.quantity = 0;
       this.totalquantity = 0;
       this.total += element.price = 0;
-    });  
+    });
   }
   ngOnInit() {
     this.items = [];
     this.total = 0;
     this.totalquantity = 0;
     this.items = this.cartService.getItems();
+    // tslint:disable-next-line:no-shadowed-variable
     this.items.forEach(element => {
       this.quantity = 1;
       this.totalquantity += 1;
@@ -39,12 +41,12 @@ export class CartComponent implements OnInit {
   }
   deleteElement(items) {
     console.log(items);
-    for (var i = 0; i < this.items.includes.length; i++) {
-      if (this.items[i]["items"] == items) {
+    for (let i = 0; i < this.items.includes.length; i++) {
+      if (this.items[i].items === items) {
         this.items.splice(i, 1);
         this.totalquantity += -1;
       }
-      
+
     }
   }
 }
