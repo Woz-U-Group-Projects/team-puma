@@ -45,6 +45,11 @@ export class CartComponent implements OnInit {
       if (this.items[i].items === items) {
         this.items.splice(i, 1);
         this.totalquantity += -1;
+        this.total = 0;
+        // tslint:disable-next-line:no-shadowed-variable
+        this.items.forEach(element => {
+          this.total += element.price;
+        });
       }
 
     }
